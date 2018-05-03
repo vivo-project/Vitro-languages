@@ -2,7 +2,7 @@
 
 <#-- Confirmation that an account has been created. -->
 
-<#assign subject = "Your ${siteName} account has been created." />
+<#assign subject = "Ihr Account für ${siteName} wurde angelegt." />
 
 <#assign html>
 <html>
@@ -15,20 +15,20 @@
         </p>
 
         <p>
-            <strong>Congratulations!</strong>
+            <strong>Herzlichen Glückwunsch!</strong>
         </p>
 
         <p>
-            We have created your new account on ${siteName}, associated with ${userAccount.emailAddress}.
+            Wir haben einen Account für  ${siteName} für Sie angelegt. Ihr Account ist mit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.
         </p>
 
         <p>
-            If you did not request this new account you can safely ignore this email. 
-            This request will expire if not acted upon for 30 days.
+            Wenn Sie diesen Account nicht beantragt haben, können Sie diese E-Mail ignorieren. 
+            Diese Anfrage erlischt automatisch nach 30 Tagen.
         </p>
 
         <p>
-            Click the link below to create your password for your new account using our secure server.
+             Klicken Sie auf den untenstehenden Link, um Ihr Passwort für Ihr neues Konto auf unserem Server zu erstellen.
         </p>
 
         <p>
@@ -36,11 +36,11 @@
         </p>
 
         <p>
-            If the link above doesn't work, you can copy and paste the link directly into your browser's address bar.
+            Wenn der obige Link nicht funktioniert, können Sie ihn kopieren und direkt in die Adressleiste Ihres Browsers und einfügen.
         </p>
 
         <p>
-            Thanks!
+            Vielen Dank!
         </p>
     </body>
 </html>
