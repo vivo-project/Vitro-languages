@@ -2,7 +2,7 @@
 
 <#-- Confirmation that a password has been reset. -->
 
-<#assign subject = "Your ${siteName} password changed." />
+<#assign subject = "Ihr Passwort für ${siteName} wurde verändert." />
 
 <#assign html>
 <html>
@@ -16,15 +16,15 @@
         </p>
 
         <p>
-            <strong>Password successfully changed.</strong>
+            <strong>Ihr Passwort wurde geändert.</strong>
         </p>
 
         <p>
-            Your new password associated with ${userAccount.emailAddress} has been changed.
+            Das mit dem Account ${userAccount.emailAddress} verknüpfte Passwort wurde geändert.
         </p>
 
         <p>
-            Thank you.
+            Vielen Dank.
         </p>
     </body>
 </html>
@@ -33,12 +33,11 @@
 <#assign text>
 ${userAccount.firstName} ${userAccount.lastName}
 
-Password successfully changed.
+Ihr Passwort wurde geändert.
 
-Your new password associated with ${userAccount.emailAddress} 
-has been changed.
+Das mit dem Account ${userAccount.emailAddress} verknüpfte Passwort wurde geändert.
 
-Thank you.
+Vielen Dank.
 </#assign>
 
 <@email subject=subject html=html text=text />

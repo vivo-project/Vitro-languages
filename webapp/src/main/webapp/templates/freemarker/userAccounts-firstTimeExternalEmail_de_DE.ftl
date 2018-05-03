@@ -2,7 +2,7 @@
 
 <#-- Confirmation that an account has been created for an externally-authenticated user. -->
 
-<#assign subject = "Your ${siteName} account has been created." />
+<#assign subject = "Ihr Account für ${siteName} wurde angelegt." />
 
 <#assign html>
 <html>
@@ -15,15 +15,15 @@
         </p>
 
         <p>
-            <strong>Congratulations!</strong>
+            <strong>Herzlichen Glückwunsch!</strong>
         </p>
 
         <p>
-            We have created your new VIVO account associated with ${userAccount.emailAddress}.
+            Wir haben einen Account für Sie angelegt. Ihr Account ist mit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.
         </p>
 
         <p>
-            Thanks!
+            Vielen Dank!
         </p>
     </body>
 </html>
@@ -32,12 +32,12 @@
 <#assign text>
 ${userAccount.firstName} ${userAccount.lastName}
 
-Congratulations!
+Herzlichen Glückwunsch!
 
-We have created your new VIVO account associated with 
-${userAccount.emailAddress}.
+Wir haben einen Account für Sie angelegt. Ihr Account ist
+mit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.
 
-Thanks!
+Vielen Dank!
 </#assign>
 
 <@email subject=subject html=html text=text />

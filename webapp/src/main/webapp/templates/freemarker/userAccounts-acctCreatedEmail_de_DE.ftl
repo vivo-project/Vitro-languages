@@ -49,20 +49,20 @@
 <#assign text>
 ${userAccount.firstName} ${userAccount.lastName}
 
-Congratulations!
+Herzlichen Glückwunsch!
 
-We have created your new account on ${siteName},
-associated with ${userAccount.emailAddress}.
+Wir haben einen Account für  ${siteName} für Sie angelegt.
+Ihr Account ist mit der E-Mail-Adresse ${userAccount.emailAddress} verknüpft.
 
-If you did not request this new account you can safely ignore this email. 
-This request will expire if not acted upon for 30 days.
+Wenn Sie diesen Account nicht beantragt haben, können Sie diese E-Mail ignorieren. 
+Diese Anfrage erlischt automatisch nach 30 Tagen.
 
-Paste the link below into your browser's address bar to create your password 
-for your new account using our secure server.
+Fügen Sie untenstehenden Link in die Adressleiste Ihres Browsers, um Ihr 
+Passwort für Ihr neues Konto auf unserem Server zu erstellen.
 
 ${passwordLink}
 
-Thanks!
+Vielen Dank!
 </#assign>
 
 <@email subject=subject html=html text=text />

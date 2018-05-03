@@ -2,7 +2,7 @@
 
 <#-- Confirmation email for user account password reset -->
 
-<#assign subject = "${siteName} reset password request" />
+<#assign subject = "Passwort zurücksetzen für ${siteName}" />
 
 <#assign html>
 <html>
@@ -11,15 +11,15 @@
     </head>
     <body>
         <p>
-            Dear ${userAccount.firstName} ${userAccount.lastName}:
+            Sehr geehrte/r ${userAccount.firstName} ${userAccount.lastName}:
         </p>
         
         <p>
-            We have received a request to reset the password for your ${siteName} account (${userAccount.emailAddress}). 
+            Wir haben eine Anfrage erhalten, Ihr Passwort für Ihren Account (${userAccount.emailAddress}) auf ${siteName} zurückzusetzen.
         </p>
         
         <p>
-            Please follow the instructions below to proceed with your password reset.
+            Bitte folgen Sie den Anweisungen unten, um mit dem Zurücksetzen Ihres Passworts fortzufahren.
         </p>
         
         <p>
@@ -28,34 +28,35 @@
         </p>
         
         <p>
-            Click on the link below or paste it into your browser's address bar to reset your password 
-            using our secure server.
+            
+			Fügen Sie den untenstehenden Link in die Adressleiste Ihres Browsers ein,
+			um Ihr Passwort über unseren Server zurückzusetzen. 
         </p>
         
         <p>${passwordLink}</p>
         
-        <p>Thank you!</p>
+        <p>Vielen Dank!</p>
     </body>
 </html>
 </#assign>
 
 <#assign text>
-Dear ${userAccount.firstName} ${userAccount.lastName}:
+Sehr geehrte/r ${userAccount.firstName} ${userAccount.lastName}:
         
-We have received a request to reset the password for your ${siteName} account 
-(${userAccount.emailAddress}). 
+Wir haben eine Anfrage erhalten, Ihr Passwort für Ihren Account
+(${userAccount.emailAddress}) auf ${siteName} zurückzusetzen. 
 
-Please follow the instructions below to proceed with your password reset.
+Bitte folgen Sie den Anweisungen unten, um mit dem Zurücksetzen Ihres Passworts fortzufahren.
 
-If you did not request this new account you can safely ignore this email. 
-This request will expire if not acted upon within 30 days.
+Wenn Sie dies nicht beantragt haben, können Sie diese E-Mail ignorieren. 
+Diese Anfrage erlischt innerhalb von 30 Tagen, wenn sie nicht beantwortet wird.
 
-Paste the link below into your browser's address bar to reset your password 
-using our secure server.
+Fügen Sie den untenstehenden Link in die Adressleiste Ihres Browsers ein,
+um Ihr Passwort über unseren Server zurückzusetzen. 
 
 ${passwordLink}
         
-Thank you!
+Vielen Dank!
 </#assign>
 
 <@email subject=subject html=html text=text />
