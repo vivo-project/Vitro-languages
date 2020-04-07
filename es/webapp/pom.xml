@@ -16,16 +16,12 @@
 
     <name>Vitro Languages for Web App es</name>
 
-<<<<<<< HEAD
-    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     
-=======
->>>>>>> branch 'sprint-i18n' of https://github.com/UQAM-VIVO/Vitro-languages-1.git
     <build>
         <plugins>
             <plugin>
