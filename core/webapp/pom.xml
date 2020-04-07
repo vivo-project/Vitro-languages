@@ -16,8 +16,8 @@
     </parent>
 
     <name>Vitro Languages for Web App CORE</name>
-    
-    
+
+
     <build>
         <plugins>
             <plugin>
