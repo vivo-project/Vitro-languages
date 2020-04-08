@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -38,11 +39,9 @@
         </developer>
     </developers>
 
-    <!--
-       The SCM repository location is used by Continuum to update against
-       when changes have occurred.  This spawns a new build cycle and releases
-       snapshots into the snapshot repository below.
-    -->
+    <!-- The SCM repository location is used by Continuum to update against 
+        when changes have occurred. This spawns a new build cycle and releases snapshots 
+        into the snapshot repository below. -->
     <scm>
         <connection>scm:git:git@github.com:vivo-project/Vitro-languages.git</connection>
         <developerConnection>scm:git:git@github.com:vivo-project/Vitro-languages.git</developerConnection>
@@ -75,22 +74,11 @@
             </activation>
             <build>
                 <plugins>
-                    <!-- plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>attach-javadocs</id>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <quiet>true</quiet>
-                            <additionalparam>${javadoc.opts}</additionalparam>
-                        </configuration>
-                    </plugin -->
+                    <!-- plugin> <groupId>org.apache.maven.plugins</groupId> 
+                        <artifactId>maven-javadoc-plugin</artifactId> <executions> <execution> <id>attach-javadocs</id> 
+                        <goals> <goal>jar</goal> </goals> </execution> </executions> <configuration> 
+                        <quiet>true</quiet> <additionalparam>${javadoc.opts}</additionalparam> </configuration> 
+                        </plugin -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
@@ -146,7 +134,7 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile> 
+        </profile>
     </profiles>
 
     <build>
@@ -176,9 +164,9 @@
                     <version>3.1.0</version>
                 </plugin>
                 <plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<version>3.2.3</version>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>3.2.3</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
@@ -214,9 +202,9 @@
         </repository>
     </distributionManagement>
     <parent>
-    	<groupId>org.vivoweb</groupId>
-    	<artifactId>vitro-languages</artifactId>
-    	<version>1.11.2-SNAPSHOT</version>
+        <groupId>org.vivoweb</groupId>
+        <artifactId>vitro-languages</artifactId>
+        <version>1.11.2-SNAPSHOT</version>
     </parent>
     <groupId>org.vivoweb</groupId>
     <version>1.11.2-SNAPSHOT</version>
