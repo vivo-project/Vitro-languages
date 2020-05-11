@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 	<name>Vitro Languages fr_CA</name>
-	<description>Vitro Languages for fr_CA</description>
+	<description>Vitro Language for fr_CA</description>
 	<url>http://vivoweb.org/</url>
 
 	<licenses>
