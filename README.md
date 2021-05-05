@@ -25,7 +25,7 @@ doing the translations yourself. Rename your new directory using the appropriate
 language code [prefix][2]. Please send a note to [the VIVO Tech group][3] to
 find out if someone else is already working on a translation.  Additional
 information about developing a new translation is available on the wiki at
-[Developing a New Interface Language for VIVO][4]
+[Developing a New Interface Language for VIVO][4].
 
 If you create a translation, please consider contributing your language files to
 the VIVO community.
