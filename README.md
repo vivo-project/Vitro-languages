@@ -22,10 +22,11 @@ in the VIVO wiki for [Adding a language to VIVO][1].
 If a directory for your desired language does not exist, you may copy one of
 the existing directories in this repository to use as a starting point for
 doing the translations yourself. Rename your new directory using the appropriate
-language code [prefix][2]. Please send a note to [the VIVO Tech group][3] to
-find out if someone else is already working on a translation.  Additional
-information about developing a new translation is available on the wiki at
-[Developing a New Interface Language for VIVO][4].
+language code [prefix][2], and also rename the files within the various
+levels of subdirectories to end with the appropriate code. Please send a note
+to [the VIVO Tech group][3] to find out if someone else is already working on a
+translation.  Additional information about developing a new translation is
+available on the wiki at [Developing a New Interface Language for VIVO][4].
 
 If you create a translation, please consider contributing your language files to
 the VIVO community.
