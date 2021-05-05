@@ -10,7 +10,7 @@ Available language files
 At present, Vitro has been translated into American English (en_US),
 Canadian English (en_CA), Canadian French (fr_CA), German (de_DE),
 Spanish (es), and Brazilian Portuguese (pt_BR). Each available
-language has it own top-level directory in this repository.
+language has its own top-level directory in this repository.
 
 Using the language files
 ------------------------
