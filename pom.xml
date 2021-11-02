@@ -220,5 +220,6 @@
     	<module>fr_CA</module>
     	<module>pt_BR</module>
     	<module>de_DE</module>
+    	<module>sr_Latn_RS</module>
     </modules>
 </project>
