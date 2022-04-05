@@ -1,7 +1,7 @@
 <#-- $This file is distributed under the terms of the license in /doc/license.txt$ -->
 
 <#if origination?has_content && origination == "helpLink">
-    <h2>Search Tips</h2>
+    <h2>Saveti za Pretragu</h2>
     <span id="searchHelp">
         <a href="#" onClick="history.back();return false;" title="back to results">Nazad na rezultate</a>
     </span>

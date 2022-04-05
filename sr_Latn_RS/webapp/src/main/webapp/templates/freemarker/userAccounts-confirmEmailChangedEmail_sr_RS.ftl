@@ -2,7 +2,7 @@
 
 <#-- Potvrda da je korisnik promenio email adresu sa kojom je povezan nalog. -->
 
-<#assign subject = "Your ${siteName} email account has been changed." />
+<#assign subject = "Vaš ${siteName} email nalog je promenjen." />
 
 <#assign html>
 <html>

@@ -2,7 +2,7 @@
 
 <#-- Potvrdni mejl za resetovanje korisničke lozinke  -->
 
-<#assign subject = "${siteName} reset password request" />
+<#assign subject = "${siteName} zahtev za reset lozinke" />
 
 <#assign html>
 <html>

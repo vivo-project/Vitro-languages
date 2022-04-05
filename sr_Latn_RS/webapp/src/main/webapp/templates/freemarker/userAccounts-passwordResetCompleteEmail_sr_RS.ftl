@@ -2,7 +2,7 @@
 
 <#-- Potvrda da je lozinka resetovana. -->
 
-<#assign subject = "Your ${siteName} password changed." />
+<#assign subject = "Vaša ${siteName} lozinka je promenjena." />
 
 <#assign html>
 <html>

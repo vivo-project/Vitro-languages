@@ -49,7 +49,7 @@
 <#assign text>
 ${userAccount.firstName} ${userAccount.lastName}
 
-Česttitamo!
+Čestitamo!
 
 Kreirali smo vaš novi nalog za ${siteName}, 
 povezan sa ${userAccount.emailAddress} email adresom.
@@ -57,7 +57,7 @@ povezan sa ${userAccount.emailAddress} email adresom.
 Ako niste zatražili kreiranje novog naloga možete ignorisati ovaj email.
 Zahtev će isteći za 30 dana.
 
-Nalepite link koji se nalazi ispred u navigacioni bar Vašeg pretraživača kako bi ste 
+Nalepite link koji se nalazi ispred u navigacioni bar Vašeg pretraživača kako biste 
 kreirali lozinku za Vaš nov nalog koristeći naše zaštićene servere.
 
 ${passwordLink}
