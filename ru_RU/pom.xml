@@ -2,12 +2,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.vivoweb</groupId>
-    <artifactId>vitro-languages-de_DE</artifactId>
-    <version>1.12.3-SNAPSHOT</version>
+    <artifactId>vitro-languages-ru_RU</artifactId>
     <packaging>pom</packaging>
 
-    <name>Vitro Languages de_DE</name>
+    <name>Vitro Languages ru_RU</name>
     <description>Vitro Languages</description>
     <url>http://vivoweb.org/</url>
 
@@ -18,27 +16,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <developers>
-        <developer>
-            <name>Graham Triggs</name>
-            <email>gtriggs@duraspace.org</email>
-            <organization>DuraSpace</organization>
-            <organizationUrl>http://vivoweb.org/</organizationUrl>
-        </developer>
-        <developer>
-            <name>Jim Blake</name>
-            <email>jeb228@cornell.edu</email>
-            <organization>Cornell University Library</organization>
-            <organizationUrl>https://github.com/j2blake</organizationUrl>
-        </developer>
-        <developer>
-            <name>John Fereira</name>
-            <email>jaf30@cornell.edu</email>
-            <organization>Cornell University</organization>
-            <organizationUrl>https://github.com/fereira</organizationUrl>
-        </developer>
-    </developers>
 
     <!--
        The SCM repository location is used by Continuum to update against
@@ -216,8 +193,10 @@
         </repository>
     </distributionManagement>
     <parent>
-    	<artifactId>vitro-languages</artifactId>
     	<groupId>org.vivoweb</groupId>
+    	<artifactId>vitro-languages</artifactId>
     	<version>1.12.3-SNAPSHOT</version>
     </parent>
+    <version>1.12.3-SNAPSHOT</version>
+    <groupId>org.vivoweb</groupId>
 </project>
