@@ -3,69 +3,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.vivoweb</groupId>
-    <artifactId>vitro-languages-home-core</artifactId>
+    <artifactId>vitro-languages-home-fr_CA</artifactId>
     <version>1.13.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>org.vivoweb</groupId>
-        <artifactId>vitro-languages-core</artifactId>
+        <artifactId>vitro-languages-fr_CA</artifactId>
         <version>1.13.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <name>Vitro Languages for Home CORE</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-en_US</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-en_CA</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-fr_CA</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-es</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-pt_BR</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-sr_Latn_RS</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-de_DE</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-home-ru_RU</artifactId>
-            <version>${project.version}</version>
-            <type>tar.gz</type>
-        </dependency>
-    </dependencies>
+    <name>Vitro Languages for Home fr_CA</name>
 
     <build>
         <plugins>
