@@ -41,6 +41,7 @@
 
     <modules>
         <module>webapp</module>
+        <module>home</module>
     </modules>
 
     <profiles>
